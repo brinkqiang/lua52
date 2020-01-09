@@ -93,5 +93,5 @@ ELSE(WIN32)
     ARCHIVE DESTINATION /${CMAKE_INSTALL_LIBDIR})
 ENDIF(WIN32)
 
-INCLUDE(cmake_uninstall.cmake)
+INCLUDE(cmake/cmake_uninstall.cmake)
 ADD_UNINSTALL_TARGET()
